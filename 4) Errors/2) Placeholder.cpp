@@ -1,4 +1,4 @@
-#pragma region Inlude & Using
+#pragma region Include & Using
 //Include
 #include <iostream>
 
@@ -8,7 +8,7 @@ using namespace std;
 #pragma endregion
 
 #pragma region Function Prototypes
-//Function prototypes
+//Function prototypess
 int FaveNumber();
 
 #pragma endregion
