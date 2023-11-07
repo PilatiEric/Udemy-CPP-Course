@@ -15,7 +15,7 @@ What is a Preprocessor?
     -ex.
         - #include
         - #if
-        - elif
-        - else
+        - #elif
+        - #else
 -The C++ Preprocessor doesn't understand C++
 */

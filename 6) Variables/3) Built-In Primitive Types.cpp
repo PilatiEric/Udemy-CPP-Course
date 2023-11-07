@@ -73,9 +73,12 @@ int main()
     long people_in_florida {20'610'000};
     cout << "There are about " << people_in_florida << " people in Florida" << endl;
 
+
+    //THIS VARIABLE WILL NOT LET THE CODE RUN
+    //REASON WHY EXPLAINED TO THE RIGHT
     long people_on_earth {7'600'000'000}; // The (') can be used to help read the numbers and won't affect output
-                                          // This number normally wouldn't fit in a long
-                                          // Works because of the {} initialization
+                                          // This number won't fit in a long
+                                          // The list initialization ({}) points out that there will be an overflow error and prevents the code from running
                                           // It prevents overflow (going into the negatives)
     cout << "There are about " << people_on_earth << " people on Earth." << endl;
 
