@@ -50,6 +50,9 @@ int age (21); //Constructor initialization
 
 int age {21}; // C++11 list initialization syntax 
               //USE THIS STYLE
+              //It prevents Overflow situations
+              //This means that when a number entered in that exceeds the number the type can normally contain
+              //it prevents it from becoming negative and outputs it correctly
 
 */
 
