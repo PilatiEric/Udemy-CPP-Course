@@ -8,11 +8,12 @@
 using namespace std;
 
 #pragma region Function Prototypes
-
+int arrays();
 #pragma endregion
 
 int main()
 {
+    arrays();
     return 0;
 }
 
