@@ -1,8 +1,8 @@
-/********************************************
+/*********************************************
  * Accessing and Modifying Vectors Notes
  * 
  * From: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535400#notes
-*********************************************/
+**********************************************/
 
 #include <iostream>
 #include <vector>
