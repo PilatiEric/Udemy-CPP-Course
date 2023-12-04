@@ -47,7 +47,8 @@ int assignment_operator()
 
     num1 = 100;           //num1 == 100
     num1 = num2;          //num1 == 20
-    num1 = num2 = 1000;   //num1 == 1000 (Don't use it)
+    num1 = num2 = 1000;   //num1 == 1000 (Don't use it unless you have a reason to 
+                          //              set all of them as being the same at initialization)
     //num1 = "Frank";     //Will throw an error as "Frank" is a string, not an int
 
     cout << "num1 is " << num1 << endl;
