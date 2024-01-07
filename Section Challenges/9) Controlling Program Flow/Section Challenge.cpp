@@ -139,6 +139,7 @@ int number_options()
                 }                    
             }
         }
+        //The list of options is no numbers have yet to be added to the list
         else
         {
             cout << "A - Add a number" <<
