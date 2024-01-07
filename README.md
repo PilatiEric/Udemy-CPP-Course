@@ -1,3 +1,2 @@
-In learning to code using the programming language of C++, I have taken on a course on Udemy called [Beginning C++ Programming - From Beginner to Beyond](https://www.udemy.com/course/beginning-c-plus-plus-programming/).
+My notes and section challenges for a course on Udemy called [Beginning C++ Programming - From Beginner to Beyond](https://www.udemy.com/course/beginning-c-plus-plus-programming/).
 
-These are the notes and section challenges I've done for it.
