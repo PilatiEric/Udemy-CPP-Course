@@ -72,6 +72,8 @@ int concatenation()
 
 int accessing_characters()
 {
+    cout << "accessing_characters()" << endl;
+    cout << "-------------------------------------" << endl;
     string s1;
     string s2 {"Frank"};
     
@@ -118,6 +120,8 @@ int accessing_characters()
 
 int comparing()
 {
+    cout << "comparing()" << endl;
+    cout << "-------------------------------------" << endl;
     /*
     ==  !=  >  >=  <  <=
 
@@ -136,20 +140,23 @@ int comparing()
     string s5 {s1};
     
     //boolalpha makes boolean expressions print "true" or "false" instead of "1" or "0"
-    cout << boolalpha << (s1 == s5) << endl;        //True
-    cout << boolalpha << (s1 == s2) << endl;        //False
-    cout << boolalpha << (s1 != s2) << endl;        //True
-    cout << boolalpha << (s1 < s2) << endl;         //True
-    cout << boolalpha << (s2 > s1) << endl;         //True
-    cout << boolalpha << (s4 < s5) << endl;         //False
-    cout << boolalpha << (s4 == s5) << endl;        //False
-    cout << boolalpha << (s1 == "Apple") << endl << endl;   //True
+    cout << boolalpha;    //boolalpha only needs to bee called once before all the other expressions to invoke it
+    cout << (s1 == s5) << endl;        //True
+    cout << (s1 == s2) << endl;        //False
+    cout << (s1 != s2) << endl;        //True
+    cout << (s1 < s2) << endl;         //True
+    cout << (s2 > s1) << endl;         //True
+    cout << (s4 < s5) << endl;         //False
+    cout << (s4 == s5) << endl;        //False
+    cout << (s1 == "Apple") << endl << endl;   //True
     return 0;
 }
 
 
 int substrings()
 {
+    cout << "substrings()" << endl;
+    cout << "-------------------------------------" << endl;
     //If you need to grab a certain number of char and not certain indexes in particular
     //object.substr(start_index, length)
 
@@ -164,6 +171,8 @@ int substrings()
 
 int searching()
 {
+    cout << "searching()" << endl;
+    cout << "-------------------------------------" << endl;
     string s1 {"This is a test"}; 
     //object.find(search_string) returns the index the strings starts at
     cout << s1.find("This") << endl;        // 0
@@ -190,6 +199,8 @@ int searching()
 
 int removing()
 {
+    cout << "removing()" << endl;
+    cout << "-------------------------------------" << endl;
     string s1 {"This is a test"};
     // .erase removes the number of char specified starting at the index specified
     //object.erase(start_index, length) 
@@ -205,6 +216,8 @@ int removing()
 
 int other_functions()
 {
+    cout << "other_functions()" << endl;
+    cout << "-------------------------------------" << endl;
     string s1 {"Frank"};
 
     cout << s1.length() << endl;    //5
@@ -217,6 +230,8 @@ int other_functions()
 
 int cin_functions()
 {
+    cout << "cin_functions()" << endl;
+    cout << "---------------------------------------------" << endl;
     string s1;
     cin >> s1;                  //Hello there
                                 //cin only accepts up to the first space

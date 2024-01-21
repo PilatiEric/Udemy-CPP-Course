@@ -5,6 +5,7 @@
 *******************************************************************************************************/
 
 #include <iostream>
+#include <iomanip>
 #include <vector>
 #include <cstring>
 #include <string>
@@ -30,3 +31,6 @@ int main()
 Working with C++ Strings
 ---------------------------------------------
 */
+
+
+int 
