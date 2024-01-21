@@ -52,6 +52,7 @@ int cipher()
     //Ask the user for the message
     cout << "Please enter your secret message with no capitalization: ";
     getline(cin, secret_message);
+    cout << endl;
 
     //Encrypt the message
     encrypted_message = encrypt(secret_message);
@@ -70,8 +71,9 @@ string encrypt(string unencrypted_message)
     string encrypted_message {};
 
     for (int i {0}; i < unencrypted_message.length(); ++i)
-    {
-        int unencrypted_letter_position {alphabet.find(unencrypted_message.at(i))};
+    {        
+        int unencrypted_letter_position = static_cast<int>(alphabet.find(unencrypted_message.at(i)));
+
         encrypted_message += cipher_code.at(unencrypted_letter_position);
     }
         
@@ -85,7 +87,7 @@ string unencrypt(string encrypted_message)
 
     for (size_t i {0}; i < encrypted_message.length(); ++i)
     {
-        int encrypted_letter_position {cipher_code.find(encrypted_message.at(i))};
+        int encrypted_letter_position = static_cast<int>(cipher_code.find(encrypted_message.at(i)));
         unencrypted_message += alphabet.at(encrypted_letter_position);
     }
 
