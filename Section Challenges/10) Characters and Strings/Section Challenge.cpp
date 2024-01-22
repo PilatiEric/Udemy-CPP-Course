@@ -88,9 +88,8 @@ string encrypt(const string& unencrypted_message)
 {
     string encrypted_message {};
 
-    for (char c : unencrypted_message) {
+    for (char c : unencrypted_message)
         encrypted_message += encryption_map[c];
-    }
 
     return encrypted_message;
 }
@@ -99,9 +98,8 @@ string unencrypt(const string& encrypted_message)
 {
     string unencrypted_message {};
 
-    for (char c : encrypted_message) {
+    for (char c : encrypted_message)
         unencrypted_message += unencryption_map[c];
-    }
 
     return unencrypted_message;
 }
