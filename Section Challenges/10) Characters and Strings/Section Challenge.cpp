@@ -1,4 +1,4 @@
-/************************************************************
+/*************************************************************************************************************************************
  * Characters and Strings Section Challenge
  * 
  * From: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535488#questions
@@ -8,7 +8,7 @@
  * Create a function that allows the user to enter in a secret message.
  * The function should then swap each letter in the message out for another letter.
  * The function should then display the encrypted message before unencrypting it again and displaying the original message.
-*************************************************************/
+**************************************************************************************************************************************/
 
 
 
@@ -38,7 +38,6 @@ string unencrypt(const string& encrypted_message);
 int main()
 {
     cipher();
-
     return 0;
 }
 
