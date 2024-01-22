@@ -54,15 +54,11 @@ unordered_map<char, char> unencryption_map;
 int cipher()
 {
     // Populate encryption map
-    for (size_t i = 0; i < alphabet.size(); ++i) 
-    {
+    for (size_t i = 0; i < alphabet.size(); ++i)
         encryption_map[alphabet[i]] = cipher_code[i];
-    }
 
     for (size_t i {0}; i < cipher_code.size(); ++i)
-    {
         unencryption_map[cipher_code[i]] = alphabet[i];
-    }
 
     string secret_message {};
     string encrypted_message{};
