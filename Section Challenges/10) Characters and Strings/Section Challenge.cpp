@@ -1,4 +1,4 @@
-/************************************************************
+/*************************************************************************************************************************************
  * Characters and Strings Section Challenge
  * 
  * From: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535488#questions
@@ -8,7 +8,7 @@
  * Create a function that allows the user to enter in a secret message.
  * The function should then swap each letter in the message out for another letter.
  * The function should then display the encrypted message before unencrypting it again and displaying the original message.
-*************************************************************/
+**************************************************************************************************************************************/
 
 
 
@@ -38,7 +38,6 @@ string unencrypt(const string& encrypted_message);
 int main()
 {
     cipher();
-
     return 0;
 }
 
@@ -54,15 +53,11 @@ unordered_map<char, char> unencryption_map;
 int cipher()
 {
     // Populate encryption map
-    for (size_t i = 0; i < alphabet.size(); ++i) 
-    {
+    for (size_t i = 0; i < alphabet.size(); ++i)
         encryption_map[alphabet[i]] = cipher_code[i];
-    }
 
     for (size_t i {0}; i < cipher_code.size(); ++i)
-    {
         unencryption_map[cipher_code[i]] = alphabet[i];
-    }
 
     string secret_message {};
     string encrypted_message{};
@@ -88,9 +83,8 @@ string encrypt(const string& unencrypted_message)
 {
     string encrypted_message {};
 
-    for (char c : unencrypted_message) {
+    for (char c : unencrypted_message)
         encrypted_message += encryption_map[c];
-    }
 
     return encrypted_message;
 }
@@ -99,9 +93,8 @@ string unencrypt(const string& encrypted_message)
 {
     string unencrypted_message {};
 
-    for (char c : encrypted_message) {
+    for (char c : encrypted_message)
         unencrypted_message += unencryption_map[c];
-    }
 
     return unencrypted_message;
 }
