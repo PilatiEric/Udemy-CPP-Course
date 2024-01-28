@@ -46,7 +46,7 @@ int main()
 //IMPROVED VERSION
 // Section Challenge -- Cipher
 string alphabet {"abcdefghijklmnopqrstuvwxyz .?!"};
-string cipher_code{"? QACZVWMBG!FESYJ.ITHOUPRDKLNX"};
+string cipher_code {"? QACZVWMBG!FESYJ.ITHOUPRDKLNX"};
 
 unordered_map<char, char> encryption_map;
 unordered_map<char, char> unencryption_map;
