@@ -3,7 +3,7 @@
  * 
  * From: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535498#overview
  * 
- * SUMMARY: 
+ * SUMMARY: All stuff you know. Everything standard among languages.
 *******************************************************/
 
 #include <iostream>
