@@ -18,6 +18,7 @@ using namespace std;
 
 //VERY IMPORTANT NOTE!!!!!!!!!!
 //When one argument is given a defualt value ALL that value must have one too
+//This also applies to calling the function if ANY of the default values are not being used
 double calc_cost_two_arg(double base_cost, double tax_rate = 0.06);  //This is the default value
 
 //double calc_cost_three_arg(double base_cost = 100.0, double tax_rate, double shipping = 3.50); //THIS WILL GIVE AN ERROR
