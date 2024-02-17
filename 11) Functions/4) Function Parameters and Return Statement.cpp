@@ -3,7 +3,8 @@
  * 
  * From: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535502#overview
  * 
- * SUMMARY:
+ * SUMMARY: How function parameters and the return statement work as well as
+ *          what Pass-By-Value is.
 *************************************************************/
 
 #include <iostream>
