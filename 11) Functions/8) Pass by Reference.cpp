@@ -3,7 +3,8 @@
  * 
  * From: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535510#questions/4821302
  * 
- * SUMMARY:
+ * SUMMARY: Pass-by-Reference uses the ampersand (&) to pass the location
+ *          of an argument and not a copy of it.
 ********************************************************************/
 
 #include <iostream>
