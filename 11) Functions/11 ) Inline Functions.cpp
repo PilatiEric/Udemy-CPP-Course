@@ -3,7 +3,8 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535516#questions/4821302
  * 
- * SUMMARY:
+ * SUMMARY: Inline functions are like the difference between getting another company
+ *          to provide a product (overhead) as opposed to having it made in house (inline)
 ****************************************************************/
 
 #include <iostream>
