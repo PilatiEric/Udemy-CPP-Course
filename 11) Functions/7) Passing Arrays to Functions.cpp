@@ -1,7 +1,7 @@
 /***********************************************************************
  * Passing Arrays to Functions Notes
  * 
- * From: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535508#overview
+ * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535508#overview
  * 
  * SUMMARY: VERY IMPORTANT CHAPTER!!!
  *          This shows how to handle passing arrays into functions

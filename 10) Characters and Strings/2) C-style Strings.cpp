@@ -1,7 +1,7 @@
 /*********************************************
  * C-Style Strings Notes
  * 
- * From: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535478#overview
+ * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535478#overview
 **********************************************/
 
 #include <iostream>

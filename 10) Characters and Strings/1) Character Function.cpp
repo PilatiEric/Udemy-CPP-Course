@@ -1,7 +1,7 @@
 /*********************************************
  * Character Functions Notes
  * 
- * From: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535476#overview
+ * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535476#overview
 **********************************************/
 
 #include <iostream>

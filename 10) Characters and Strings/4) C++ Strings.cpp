@@ -1,7 +1,7 @@
 /**********************************************
  * C++ Strings Notes
  * 
- * From: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535482#overview
+ * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535482#overview
 ***********************************************/
 
 #include <iostream>

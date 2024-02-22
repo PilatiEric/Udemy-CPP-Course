@@ -1,7 +1,7 @@
 /**************************************************************
  * How Do Function Calls Work Notes
  * 
- * From: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535514#questions/4821302
+ * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535514#questions/4821302
  * 
  * SUMMARY: This shows how memory works when a program runs
  * IMPORTANT:    THIS CHAPTER IS IMPORTANT FOR POINTERS!!!!
@@ -93,7 +93,7 @@ ________________________________________________
 |  x {result + (y + z)}                         |   result adds y & z {30 change to 60}   |   | VVVVVVVVVVVVVVVVVVVVVVVVVVVVVV      
 |  z {b}                                        |   z matches to b {20}                   |   |
 |  y {a}                                        |   y matches to a {10}                   |   |
-|  x {result's location}                        |   x matches to result's location        |   |
+|  x {result's location}                        |   x matches to result's location        |   | 
 |                                               |   FUNC2 ADDED TO STACK                  |   | FUNC2 POPS OFF STACK
 |_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|                                         |   |
 |  return result                                |                                         |   | returns value to z in func1 {60}

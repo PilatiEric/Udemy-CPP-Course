@@ -1,7 +1,7 @@
 /*************************************************************
  * Function Prototypes Notes
  * 
- * From: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535500#overview
+ * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535500#overview
  * 
  * SUMMARY: Function Prototypes allow for cleaner code and the ability to define
  *          functions after the main() method

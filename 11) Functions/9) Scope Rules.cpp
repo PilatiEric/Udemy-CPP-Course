@@ -1,7 +1,7 @@
 /**************************************************************
  * Scope Rules Notes
  * 
- * From: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535512#questions/4821302
+ * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535512#questions/4821302
  *
  *  SUMMARY:
 ***************************************************************/
