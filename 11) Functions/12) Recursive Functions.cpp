@@ -3,7 +3,8 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535518#questions/4821302
  * 
- * SUMMARY:
+ * SUMMARY: Recursive function call themselves and allow the code to create
+ *          more concise and understandable code.
 ****************************************************************/
 
 #include <iostream>
