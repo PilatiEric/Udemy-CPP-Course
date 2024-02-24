@@ -88,29 +88,29 @@ ________________________________________________
 |                    Heap                       |
 |                 Free Stack                    |
 |                                               |
-|___________________Stack_______________________|   NOW SWITCH DIRECTIONS
-|                                               |   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ^ > Return results of operations now  
-|  x {result + (y + z)}                         |   result adds y & z {30 change to 60}   |   | VVVVVVVVVVVVVVVVVVVVVVVVVVVVVV      
-|  z {b}                                        |   z matches to b {20}                   |   |
-|  y {a}                                        |   y matches to a {10}                   |   |
-|  x {result's location}                        |   x matches to result's location        |   | 
-|                                               |   FUNC2 ADDED TO STACK                  |   | FUNC2 POPS OFF STACK
-|_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|                                         |   |
-|  return result                                |                                         |   | returns value to z in func1 {60}
-|  func2(result, a, b)                          |                                         |   |
-|  result {a + b}                               |   result matches to x + y {30}          |   |
-|  b {y}                                        |   y matches to b {20}                   |   |
-|  a {x}                                        |   x matches to a {10}                   |   | FUNC1 POPS OFF STACK
-|_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|   FUNC1 ADDED TO STACK                  |   |
-|  print(z)                                     |                                         |   | print value of z {60} 
-|  z {func1(x, y)}                              |                                         |   | Main methods returns 0 (ENDS HERE)
-|  z {0}                                        |                                         |   |
-|  y {20}                                       |   MAIN METHOD ADDED TO STACK            |   |
-|  x {10}                                       | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   |
-|______________Static Variables_________________|(STARTS HERE) Order of operations for stack  V
-|                                               |              Shows the order of things
-|_________________Code Area_____________________|              being added to the stack
-|                                               |              and executed
+|___________________Stack_______________________|    NOW SWITCH DIRECTIONS
+|                                               |  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Return results of operations now  
+|  x {result + (y + z)}                         |  ^  result adds y & z {30 change to 60}      VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV      
+|  z {b}                                        |  |  z matches to b {20}                      V
+|  y {a}                                        |  ^  y matches to a {10}                      V
+|  x {result's location}                        |  |  x matches to result's location           V 
+|                                               |  ^  FUNC2 ADDED TO STACK                     V FUNC2 POPS OFF STACK
+|_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|  |                                           V
+|  return result                                |  ^                                           V returns value to z in func1 {60}
+|  func2(result, a, b)                          |  |                                           V
+|  result {a + b}                               |  ^  result matches to x + y {30}             V
+|  b {y}                                        |  |  y matches to b {20}                      V
+|  a {x}                                        |  ^  x matches to a {10}                      V FUNC1 POPS OFF STACK
+|_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|  |  FUNC1 ADDED TO STACK                     V
+|  print(z)                                     |  ^                                           V print value of z {60} 
+|  z {func1(x, y)}                              |  |                                           V Main methods returns 0 (ENDS HERE)
+|  z {0}                                        |  ^                                           V
+|  y {20}                                       |  |  MAIN METHOD ADDED TO STACK               V
+|  x {10}                                       |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^     V
+|______________Static Variables_________________|  (STARTS HERE) Order of operations for stack V
+|                                               |                Shows the order of things
+|_________________Code Area_____________________|                being added to the stack
+|                                               |                and executed
 |_______________________________________________|
 */
 
