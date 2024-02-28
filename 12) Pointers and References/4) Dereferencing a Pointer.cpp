@@ -3,7 +3,7 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535532#questions/7245890
  * 
- * SUMMARY: 
+ * SUMMARY: This shows how to access the data the pointer is pointing at
 ***********************************************************************************/
 
 #include <iostream>
@@ -58,6 +58,7 @@ void dereferencing_pointer()
 
 void temp_pointer()
 { 
+    cout << "temp_pointer()\n-----------------------------------------------" << endl;
     double high_temp {100.7};
     double low_temp {37.4};
     double *temp_ptr {&high_temp};
@@ -72,6 +73,7 @@ void temp_pointer()
 
 void name_pointer()
 {
+    cout << "name_pointer()\n-----------------------------------------------" << endl;
     string name {"Eric"};
     string *string_ptr {&name};
 
@@ -82,8 +84,10 @@ void name_pointer()
 }
 
 
+//NOTE: ALWAYS USE VECTORS AND NOT ARRAYS!!!
 void vector_pointer()
 {
+    cout << "vector_pointer()\n-----------------------------------------------" << endl;
     vector<string> avatars {"Wan", "Aang", "Korra"};
     vector<string> *vector_ptr {nullptr};
 
