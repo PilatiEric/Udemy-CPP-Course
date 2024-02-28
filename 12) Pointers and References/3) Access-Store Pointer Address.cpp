@@ -3,7 +3,7 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535530#questions/4821302
  * 
- * SUMMARY:
+ * SUMMARY: How to access and store pointer addresses
 ********************************************************************************/
 
 #include <iostream>
