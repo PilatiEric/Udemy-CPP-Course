@@ -3,7 +3,7 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535534#questions/7245890
  * 
- * SUMMARY:
+ * SUMMARY: This shows how to allocate and deallocate memory manually for pointers
 ***********************************************************************************/
 
 #include <iostream>
