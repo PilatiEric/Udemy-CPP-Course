@@ -40,7 +40,7 @@ int main()
 void menu_selection(vector<int> &number_list)
 {
     bool quit {false};
-    vector<char> selection_list {'P', 'p', 'A', 'a', 'M', 'm', 'S', 's', 'L', 'l', 'Q', 'q'};
+    vector<char> selection_list {'P', 'A', 'M', 'S', 'L', 'Q'};
 
     while (!quit)
     {
@@ -49,9 +49,9 @@ void menu_selection(vector<int> &number_list)
         cout << "Please make a selection: ";
         cin >> selection;
         cout << endl;
+        selection = toupper(selection);
         if (find(selection_list.begin(), selection_list.end(), selection) != selection_list.end())
         {
-            to_uppercase(selection);
             if (selection == 'P')
                 print_numbers(number_list);
             else if (selection == 'A')
@@ -91,15 +91,10 @@ void show_menu(vector<int> &number_list)
         cout << "A - Add a number" <<
               "\nQ - Quit" <<
               endl <<
-              "\nCurrent size of list: " << number_list.size() <<
+              "\nCurrent size of list: 0" <<
               endl <<
               "\nEnter your choice: ";
     }
-}
-
-void to_uppercase(char &selection)
-{
-    selection = toupper(selection);
 }
 
 void print_numbers(vector<int> &number_list)
@@ -111,7 +106,7 @@ void print_numbers(vector<int> &number_list)
 
 void add_number(vector<int> &number_list)
 {
-    char added_number {};
+    int added_number {};
     cout << "Enter a number: ";
     cin >> added_number; 
 
