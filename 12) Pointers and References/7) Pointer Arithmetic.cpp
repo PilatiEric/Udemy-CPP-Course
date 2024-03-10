@@ -3,7 +3,7 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535538#questions/7245890
  * 
- * SUMMARY: 
+ * SUMMARY: The use adding or subtracting the values of pointers together
 ************************************************************************************************/
 
 
