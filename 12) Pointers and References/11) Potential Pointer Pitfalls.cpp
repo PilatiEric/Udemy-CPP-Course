@@ -3,27 +3,14 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535546#questions
  * 
- * SUMMARY:
+ * SUMMARY: A list of things to keep in mind when using pointers
 ************************************************************************************************************/
-
-#include <iostream>
-#include <vector>
-#include <string>
-
-using namespace std;
-
 
 #pragma region Function Protypes
 
 void uninitialized_pointers();
 
 #pragma endregion
-
-
-int main()
-{
-    return 0;
-}
 
 
 
@@ -58,5 +45,6 @@ void uninitialized_pointers()
     int *int_ptr;   //Pointing anywhere
                     //Might be pointing to very important place in memory and could wipe it out
     //...
+    
     *int_ptr = 100; //Hopefully a crash
 }
