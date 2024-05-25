@@ -56,7 +56,7 @@ int main()
 
     cout << array1 << endl;
     cout << "Print" << endl;
-    // This determines the size of the array (the number of element).
+    // This determines the size of the array (the number of elements).
     size_t array1_size = sizeof(array1) / sizeof(array1[0]);
     size_t array2_size = sizeof(array2) / sizeof(array2[0]);
 
