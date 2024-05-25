@@ -35,12 +35,17 @@
 
 using namespace std;
 
-
 #pragma region Function Prototypes
 
 int *apply_all(int arr1 [], size_t size1, int arr2 [], size_t size2);
+void print(const int array[], int array_size);
 
 #pragma endregion
+
+
+
+
+
 
 
 
@@ -49,41 +54,59 @@ int main()
     int array1[] {1, 2, 3, 4, 5};
     int array2[] {10, 20, 30};
 
-    //This determines the size of the array.
+    cout << array1 << endl;
+    cout << "Print" << endl;
+    // This determines the size of the array (the number of element).
     size_t array1_size = sizeof(array1) / sizeof(array1[0]);
     size_t array2_size = sizeof(array2) / sizeof(array2[0]);
 
+    // Call apply_all and store the result
     int *results = apply_all(array1, array1_size, array2, array2_size);
-    print(results);
+
+    // Print the result array
+    print(results, array1_size * array2_size);
+
+    // Free the allocated memory
+    delete[] results;
+
     return 0;
 }
 
 
-int *apply_all(int arr1 [], size_t size1, int arr2 [], size_t size2)
+
+
+
+
+
+int *apply_all(int arr1[], size_t size1, int arr2[], size_t size2)
 {
     size_t const array_size {size1 * size2};
     int *array_results = new int[array_size];
     int new_array_index {0};
 
-
     for (size_t i {0}; i < size1; ++i)
     {
-        for (size_t j {0}; j < size2; ++i)
+        for (size_t j {0}; j < size2; ++j)
         {
             array_results[new_array_index] = arr1[i] * arr2[j];
+            cout << arr1[i] * arr2[j] << endl;
             ++new_array_index;
         }
     }
-
     return array_results;
 }
 
-void print(int *array [])
-{
-    size_t array_size {sizeof(array) / sizeof(array[0])};
 
+
+
+
+
+
+void print(const int array[], int array_size)
+{
     for (int i {0}; i < array_size; ++i)
     {
-        cout << array[i];
+        cout << array[i] << " ";
     }
+    cout << endl;
 }
