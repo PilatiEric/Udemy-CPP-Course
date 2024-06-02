@@ -14,6 +14,6 @@ using namespace std;
 
 int main()
 {
-    cout << "Print" << endl;
+    
     return 0;
 }
