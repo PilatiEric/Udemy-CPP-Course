@@ -14,5 +14,6 @@ using namespace std;
 
 int main()
 {
+    cout << "I'm back, baby!";
     return 0;
 }
