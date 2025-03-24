@@ -40,9 +40,9 @@ int main()
 
 /*Other Vector Notes
 ------------------------------------
--What if you are out of bounds?
+-What if you are out of bounds?d
     -Arrays never do bounds checking
-    -Many vector methods privide bounds checking
+    -Many vector methods provide bounds checking
         -An exception and error message is generated
 */
 

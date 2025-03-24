@@ -17,6 +17,7 @@ int vectors();
 
 int main()
 {
+    cout << boolalpha;
     vectors();
     return 0;
 }
@@ -74,8 +75,20 @@ How to Declare a Vector
 int vectors()
 {
     vector <char> vowels (5);
+    vowels.at(0) = 'a';
+    vowels.at(1) = 'e';
+    vowels.at(2) = 'i';
+    vowels.at(3) = 'o';
+    vowels.at(4) = 'u';
+
+    for (int i = 0; i < vowels.size(); i++)
+    {
+        if (i < vowels.size() - 1) {cout << vowels[i] << ", ";}
+        else {cout << vowels[i] << endl;}
+    }
+
     vector <int> test_scores {100, 98, 89, 85, 93};
-    vector <double> hi_temperatures (365, 80.0);
+    vector <double> hi_temperatures (365, 80.0); //There will be 365 elements, all of which will be set to 80.0
 
 
     return 0;
