@@ -3,7 +3,7 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535568#overview
  * 
- * SUMMARY:
+ * SUMMARY: Brief overview of what Classes and Objects are
 *************************************************************************************************************/
 
 #include <iostream>
