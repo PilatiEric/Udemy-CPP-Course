@@ -44,6 +44,7 @@ class Account
     //methods
     bool withdraw (double amount);
     bool deposit (double amount);
+    bool balance ();
 };
 
 #pragma endregion
