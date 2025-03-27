@@ -3,7 +3,7 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535574#overview
  * 
- * SUMMARY: 
+ * SUMMARY: A brief summary of the function of the public and private privacy settings
 *****************************************************************************************************************/
 
 #include <iostream>
