@@ -3,7 +3,7 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535578#overview
  * 
- * SUMMARY:
+ * SUMMARY: How to make constructors and destructors and how they function
 *****************************************************************************************************************/
 
 #include <iostream>
