@@ -3,7 +3,7 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535584#overview
  * 
- * SUMMARY: 
+ * SUMMARY: Explains a more efficient way of initializing values in an object
 *****************************************************************************************************************/
 
 
