@@ -12,26 +12,32 @@
             int xp;
 
         public:
-            // VVVVV This causes the commented out constructors below to not be needed due to supplying default parameters
+            std::string get_name() { return name; }
+            int get_health() { return health; }
+            int get_xp() { return xp; }
+
             Player(std::string name_val = "None", int health_val = 0, int xp_val = 0)
                 : name{name_val}, health{health_val}, xp{xp_val} 
-                {
-                    std::cout << "Three-args constructor" << std::endl;
-                }
+            {
+                std::cout << "Three-args constructor for " << name << std::endl;
+                std::cout << endl;
+            }
 
-            //Sometimes we still want the user to explicitly state the values rather than provide these default ones
+            //Copy Constructor
+            Player(const Player &source)
+                : name (source.name),
+                  health (source.health),
+                  xp (source.xp)
+            {
+                std::cout << "Copy constructor - made of: " << source.name << std::endl;
+                std::cout << endl;
+            }
 
-            // Player() 
-            //     : Player {"None", 0, 0}
-            //     {
-            //         std::cout << "No-args constructor" << std::endl;
-            //     }
-
-            // Player(std::string name_val)
-            //     : Player {name_val, 0, 0}
-            //     {
-            //         std::cout << "One-arg constructor" << std::endl;
-            //     }
-
+            //Destructor
+            ~Player() 
+            { 
+                std::cout << "Destructor called for: " << name << std::endl; 
+                std::cout << endl;
+            }
     };
 #endif
