@@ -3,7 +3,7 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535586#overview
  * 
- * SUMMARY:
+ * SUMMARY: Explains how to automate constructor creation a bit
 *****************************************************************************************************************/
 
 
