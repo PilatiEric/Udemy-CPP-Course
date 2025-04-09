@@ -1,6 +1,11 @@
 #include <iostream>
 #include <string>
 
+
+//Class cpp files are where you define the constructors and functions
+
+
+
 #ifndef _player_h_
     #define _player_h_
     class Player

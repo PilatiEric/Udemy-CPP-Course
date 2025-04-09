@@ -3,7 +3,7 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535604#questions
  * 
- * SUMMARY: 
+ * SUMMARY: An explanation of Static members and class cpp files
 *****************************************************************************************************************/
 
 
