@@ -24,7 +24,7 @@
             //SETTERS
             void increment_watched() { ++watched; }
 
-            //TODO: Set up the logic for the constructors in the cpp file
+            
             //Main Constructor
             Movie(std::string name_val = "None", std::string rating_val = "Unrated", int watched_val = 0);
 
