@@ -20,7 +20,7 @@
                 : name{name_val}, health{health_val}, xp{xp_val} 
             {
                 std::cout << "Three-args constructor for " << name << std::endl;
-                std::cout << endl;
+                std::cout << std::endl;
             }
 
             //Copy Constructor
@@ -30,14 +30,14 @@
                   xp (source.xp)
             {
                 std::cout << "Copy constructor - made of: " << source.name << std::endl;
-                std::cout << endl;
+                std::cout << std::endl;
             }
 
             //Destructor
             ~Player() 
             { 
                 std::cout << "Destructor called for: " << name << std::endl; 
-                std::cout << endl;
+                std::cout << std::endl;
             }
     };
 #endif

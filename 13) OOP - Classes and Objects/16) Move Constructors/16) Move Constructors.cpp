@@ -47,12 +47,12 @@ int main()
 /*
 Move Constructor
 --------------------------------------------
--Sometimes when we execute code the compiler creates unnamed temprary values
+-Sometimes when we execute code the compiler creates unnamed temporary values
     - int total {0};
       total = 100 + 200;
     -100 + 200 is evaluated as 300 stored in an unnamed temp value
-    -the 300 us then stored in the variable total
-    -then the tmep value is discarded
+    -the 300 is then stored in the variable total
+    -then the temp value is discarded
 -The same happens with objects as well
 
 
