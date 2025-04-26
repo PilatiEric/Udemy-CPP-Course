@@ -9,10 +9,8 @@
 
  #include <iostream>
  #include <string>
+ #include "Movie.h"
  #include "Movies.h"
- #include "Movie.cpp"
- #include "Movies.h"
- #include "Movies.cpp"
 
  using namespace std;
 

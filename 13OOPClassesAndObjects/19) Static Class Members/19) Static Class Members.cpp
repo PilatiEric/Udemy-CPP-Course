@@ -19,7 +19,6 @@ using namespace std;
 #pragma region Classes
 
     #include "Player.h"
-    #include "Player.cpp"
 
 #pragma endregion
 
