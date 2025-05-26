@@ -3,7 +3,7 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535624#questions/23270813
  * 
- * SUMMARY: 
+ * SUMMARY: How to overload the assignment operator to be able to copy Class type objects
  *********************************************************************************************************************/
 
 
