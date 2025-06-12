@@ -3,7 +3,7 @@
  * 
  * FROM: https://www.udemy.com/course/beginning-c-plus-plus-programming/learn/lecture/9535626#questions/23270813
  * 
- * SUMMARY: 
+ * SUMMARY: How to apply the move operation to a class
  *********************************************************************************************************************/
 
 
